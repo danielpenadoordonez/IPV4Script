@@ -2,7 +2,7 @@ from MyExceptions import InvalidIpFormat, InvalidIpRange
 from time import sleep
 
 def valida_IP(ip):
-
+    'Validaciones para IP ingresada'
     #Valida que solo hayan digitos en cada octeto
     def isAllDigits(octet):
         if not octet.isdigit():
