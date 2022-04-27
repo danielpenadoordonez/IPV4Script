@@ -1,4 +1,4 @@
-from MyExceptions import InvalidIpFormat, InvalidIpRange
+from IPExceptions import InvalidIpFormat, InvalidIpRange
 from time import sleep
 
 def valida_IP(ip):
